@@ -1,4 +1,4 @@
 FROM amazoncorretto:8
 MAINTAINER dcss
-COPY target/docker-message-server-1.0.0.jar demo.jar
+COPY target/demo-0.0.1-SNAPSHOT.jar demo.jar
 ENTRYPOINT ["java","-jar","/demo.jar"]
