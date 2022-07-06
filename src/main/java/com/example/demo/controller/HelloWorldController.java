@@ -13,6 +13,7 @@ public class HelloWorldController {
 
     @RequestMapping("/hello")
     public TestCmd  helloWorld(){
+        System.out.println("hello wolrd api invoked");
         TestCmd cmd = new TestCmd();
         cmd.setMessage("hello world");
 
