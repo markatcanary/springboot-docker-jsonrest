@@ -11,7 +11,7 @@
     </body>
     <script>
         function Hello(){
-            let url = "http://localhost:8080/api"
+            let url = "http://localhost/api"
             fetch(url+"/hello").then(response => response.json())
                 .then(data => alert(JSON.stringify(data)));
             // alert(JSON.stringify(response));
