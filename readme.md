@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=lib\opencv-320.jar -DgroupId=org.opencv -DartifactId=opencv-320 -Dversion=1.0 -Dpackaging=jar
